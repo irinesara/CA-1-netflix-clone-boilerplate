@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+
+}
+#background{
+    width: 107%;
+    height: 100%;;
+    background-size: cover;
+    z-index: -1;
+    opacity: 86%;
+}
+#logo{
+    position: fixed;
+    top: 0%;
+    width: 100px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.topbar nav{
+    position: fixed;
+    top: 10px;
+    margin: 20px;
+    margin-left: 180px;
+    color:white;
+    font-weight: bolder;
+    word-spacing: 15px;
+}
+.topright{
+    position: absolute;
+    top: 40px;
+    left: 1300px;
+    word-spacing: 10px;
+}
+#icon{
+    height: 40px;
+    position: absolute;
+    top: 400px;
+    margin-left: 70px;
+}
+.show{
+    position: absolute;
+    top: 406px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title h1{
+    position: absolute;
+    top: 425px;
+    margin-left: 64px;
+    font-size: 100px;
+    color: white;
+}
+.play{
+    position: absolute;
+    top: 560px;
+    margin-left: 70px ;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color:white ;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+}
+#plbtn{
+    width: 15px;
+    margin-left: 3px;
+}
+.info{
+    position: absolute;
+    top: 560px;
+    margin-left: 150px ;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(124, 121, 121) ;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+}
+#minfo{
+    width: 15px;
+    margin-left: 3px;
+}
+.see{
+    margin: 10px;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+}
